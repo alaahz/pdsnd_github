@@ -1,6 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
+from tabulate import tabulate
 
 CITY_DATA = {1: 'chicago.csv',
              2: 'new_york_city.csv',
@@ -59,9 +60,9 @@ def get_filters():
                                     3=Washington\n''', CITY_DATA)
 
     filter_by = input_check('''Would you like to filter the data by month, day, both ,
-                               or not at all ( "none" for no time filter).? 
+                               or not at all ( "none" for no time filter).?
                                      1=month
-                                     2=day 
+                                     2=day
                                      3=both
                                      4=none\n''', FILTER)
 
@@ -222,14 +223,11 @@ def print_rawdata(df):
     """
     raw_counter = 1
     while True:
-        raw_data = input('Would you like to see some raw data? Type Yes or No.\n').lower()
-        if raw_data == 'yes':
-            print(df[raw_counter:raw_counter+5])
-            raw_counter += 5
-        elif raw_data == 'no':
+        display_data = input('\nWould you like to see 5 lines of raw data? Enter yes or no.\n')
+        if display_data.lower() != 'yes':
             break
-        else:
-            print('Sorry, you must type yes or no')
+        print(tabulate(df.iloc[np.arange(0+raw_counter,5+raw_counter)], headers ="keys"))
+        raw_counter+=5
 
 
 def main():
