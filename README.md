@@ -23,4 +23,8 @@ Bikeshare_2.py
 - A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The following links help me to complete the program:
+
+- [pandas](https://pandas.pydata.org/docs/reference/frame.html).
+- [ Python- Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#ValueError).
+- [Markdown Preview package](https://github.com/atom/markdown-preview).
