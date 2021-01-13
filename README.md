@@ -27,6 +27,7 @@ The following links help me to complete the program:
 
 - [pandas](https://pandas.pydata.org/docs/reference/frame.html).
 - [ Python- Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#ValueError).
+- [python-tabulate](https://pypi.org/project/tabulate/) _Udacity reviewer's suggestion_
 - [Markdown Preview package](https://github.com/atom/markdown-preview).
 
 ## The Datasets:
