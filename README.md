@@ -28,3 +28,40 @@ The following links help me to complete the program:
 - [pandas](https://pandas.pydata.org/docs/reference/frame.html).
 - [ Python- Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#ValueError).
 - [Markdown Preview package](https://github.com/atom/markdown-preview).
+
+## The Datasets:
+Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
+
+- _Start Time (e.g., 2017-01-01 00:07:57)_
+- _End Time (e.g., 2017-01-01 00:20:53)_
+- _Trip Duration (in seconds - e.g., 776)_
+- _Start Station (e.g., Broadway & Barry Ave)_
+- _End Station (e.g., Sedgwick St & North Ave)_
+- _User Type (Subscriber or Customer)_
+
+The Chicago and New York City files also have the following two columns:
+- _Gender_
+- _Birth Year_
+
+### Statistics Computed:
+You will learn about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, you'll write code to provide the following information:
+
+##### Popular times of travel (i.e., occurs most often in the start time):
+- _most common month._
+- _most common day of week._
+- _most common hour of day._
+
+##### Popular stations and trip:
+
+- most common start station.
+- most common end station.
+- most common trip from start to end (i.e., most frequent combination of start station and end station).
+
+##### Trip duration:
+- total travel time.
+- average travel time.
+
+##### User info:
+
+- _counts of each user type._
+- counts of each gender earliest, most recent, most common year of birth
