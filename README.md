@@ -5,7 +5,14 @@ January 12, 2021.
 US Bikeshare Date Analysis Project
 
 ### Description
-Describe what your project is about and what it does
+In this project, Python will be used to explore data related to bike share systems for three major cities in the United.
+
+- Chicago
+- New York City
+- Washington
+
+The program  will ask a user to give input on which data they would like to see. Depending on a user's input, the program will compute and provide a useful information.
+
 
 ### Files used
 Include the files used
