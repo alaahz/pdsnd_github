@@ -17,5 +17,10 @@ The program  will ask a user to give input on which data they would like to see.
 ### Files used
 Bikeshare_2.py
 
+## Softwares needed:
+- Python 3, NumPy, and pandas installed using Anaconda.
+- A text editor, like [Sublime](https://www.sublimetext.com/) or [Atom](https://atom.io/).
+- A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
+
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
