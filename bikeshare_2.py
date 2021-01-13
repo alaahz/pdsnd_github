@@ -223,11 +223,14 @@ def print_rawdata(df):
     """
     raw_counter = 1
     while True:
-        display_data = input('\nWould you like to see 5 lines of raw data? Enter yes or no.\n')
-        if display_data.lower() != 'yes':
+        display_data = int(input('\nWould you like to see 5 lines of raw data? Enter 1 for (yes) or 2 for (no).\n'))
+        if display_data == 2:
             break
-        print(tabulate(df.iloc[np.arange(0+raw_counter,5+raw_counter)], headers ="keys"))
-        raw_counter+=5
+        elif display_data == 1:
+             print(tabulate(df.iloc[np.arange(0+raw_counter,5+raw_counter)], headers ="keys"))
+             raw_counter+=5
+        else:
+            print('Sorry, you must type an integer.\n Try again')
 
 
 def main():
